@@ -1,0 +1,138 @@
+.cards-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .tabs {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  
+  .tab {
+    padding: 10px 20px;
+    background-color: #f2f2f2;
+    border: none;
+    border-radius: 4px;
+    margin-right: 10px;
+    cursor: pointer;
+  }
+  
+  .tab.active {
+    background-color: #eaeaea;
+  }
+  
+ 
+  .card-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .card {
+    width: calc(33.33% - 20px);
+  }
+  
+  
+  
+  .card {
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 20px;
+  }
+  
+  .card-header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .card-type {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    margin-right: 10px;
+  }
+  
+  .card-type.subscription {
+    background-color: #c900cc;
+  }
+  
+  .card-type.burner {
+    background-color: #0044ff;
+  }
+  
+  .card-content h3 {
+    margin-top: 0;
+    margin-bottom: 10px;
+  }
+  
+  .card-content p {
+    margin: 0;
+  }
+  
+  .loading {
+    margin-top: 20px;
+  }
+  
+  
+  
+  .dots-container {
+    display: flex;
+    align-items: center;
+  }
+  
+  .dot {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    margin-right: 5px;
+  }
+  
+  .dot.spent {
+    background-color: #FF0000;
+    margin-top: 10px;
+    margin-left: 5px;
+  }
+  .dot-txt1{
+    color: #FF0000;
+    padding: 5px;
+  }
+  .dot-txt2{
+    color: #00FF00;
+    padding: 5px;
+  }
+  .dot.available {
+    background-color: #00FF00;
+    margin-top: 10px;
+    margin-left: 5px;
+  }
+  
+  .line {
+    height: 2px;
+    background-color: #ccc;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+/* ...Previous styles... */
+
+.ratio-line {
+    height: 5px;
+    background-color: #00FF00;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+  }
+  
+  .ratio-line-progress {
+    height: 100%;
+    background-color: #FF0000; /* Blue progress color */
+    border-radius: 10px;
+  }
+    
+  .info-row span{
+    padding: 5px;
+  }
+  
